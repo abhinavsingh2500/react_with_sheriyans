@@ -7,17 +7,16 @@
 html,
 body{
   height:100%;
-  width:100%;
-  
-}
+  width:100%;}
 .parent{
-  height:100vh;
+  height:100%;
   width:100%;
   background-color: rgb(31, 15, 15);
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  gap:30px;
+  align-items: flex-start;
 }
 .card{
   margin:5px;
